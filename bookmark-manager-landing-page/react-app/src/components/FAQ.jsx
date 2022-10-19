@@ -7,9 +7,9 @@ const Accordion = ({ children, title }) => {
     return (
         <div className="mx-auto text-left md:w-[50%]">
             <button
-                className={`relative w-full pb-3 pt-4 text-left text-black before:absolute  before:right-0 before:content-[url(../src/assets/icon-arrow.svg)] hover:text-red hover:text-opacity-80 md:before:right-[3%] ${
+                className={`relative w-full pb-3 pt-4 text-left text-black before:absolute  before:right-0 before:content-[url(./assets/icon-arrow.svg)] hover:text-red hover:text-opacity-80 md:before:right-[3%] ${
                     active
-                        ? "before:rotate-180 before:content-[url(../src/assets/icon-red-arrow.svg)] "
+                        ? "before:rotate-180 before:content-[url(./assets/icon-red-arrow.svg)] "
                         : ""
                 }`}
                 onClick={() => setActive(prev => !prev)}

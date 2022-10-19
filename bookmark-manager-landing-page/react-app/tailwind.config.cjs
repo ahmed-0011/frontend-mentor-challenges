@@ -66,7 +66,7 @@ module.exports = {
                 xl: "1440px"
             },
             backgroundImage: {
-                dots: "url('../src/assets/bg-dots.svg')"
+                dots: "url('./assets/bg-dots.svg')"
             },
             boxShadow: {
                 card: "0px 15px 10px 1px rgba(181, 181, 181, 0.09), 0px 25px 25px 6px rgba(194, 205, 255, 0.2)",
